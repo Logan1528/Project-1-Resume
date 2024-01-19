@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background-image: linear-gradient(to right, red, rgb(0, 128, 255));
+}
+
+img{
+    display: grid;
+    position: absolute;
+    left: 90%;
+    bottom: 5%;
+    height: 120px;
+    width: 120px;
+    border-radius: 70%;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #3498db;
+}
+
+.job,
+.degree {
+    margin-bottom: 20px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(0,128,255),red);
+}
